@@ -47,7 +47,7 @@ public class CustomerController {
 		return "redirect:/customer/list";
 	}
 
-//Customer UPDATE
+//Customer UPDATE --
 	@GetMapping("/showFormForUpdate")
 	public String showFormForUpdate(@RequestParam("customerId") int theId, Model theModel) {
 
